@@ -15,8 +15,10 @@ public class FileController {
 	}
 	
 	@RequestMapping(method=RequestMethod.POST)
-	public String upload(File file) {
-		System.out.println("File name: " + file);
+	public String upload(String title, String content, String file) {
+		System.out.println("title	: " + file);
+		System.out.println("content : " + content);
+		System.out.println("file	: " + file);
 		
 		return "redirect:/";
 	}

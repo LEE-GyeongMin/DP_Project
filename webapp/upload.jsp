@@ -9,7 +9,10 @@
 	
 	<body>
 		<form action="/picture/" method="post">
-			<input type="file" name="file" /> <br />
+			Title <br />
+			<input type="text" name="title" size=80 /> <br />
+			<textarea name="content" rows="24" cols="60">Input content</textarea> <br />
+			<input type="text" name="file" /> <br />
 			<input type="submit" value="Submit" />
 		</form> 
 	</body>
