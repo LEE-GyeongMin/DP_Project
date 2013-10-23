@@ -1,0 +1,61 @@
+div#wrap {
+	width: 800px;
+	overflow: auto;
+	border: 1px solid #BBBBBB;
+	-webkit-border-radius: 20px;	
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+header>h1 {
+	font-family: Realeway, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+div#formArea {
+	width: 80%;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#formArea input[name=title] {
+	width: 500px;
+	padding: 2px;
+}
+
+#formArea textarea {
+	width: 600px;
+	height: 150px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding: 5px;
+	resize: none;
+}
+
+#formArea input[type=submit],input[type=reset] {
+	margin-top: 20px;
+	padding: 5px;
+}
+
+#formArea input[type=file] {
+	float: left;
+}
+
+.button {
+	display: block;
+	background-color: white;
+	color: #0066CC;
+	border: 1px solid #0066CC;
+	-webkit-border-radius: 5px;
+	padding: 5px;
+	margin-right: 5px;
+	margin-top: 1px;
+	margin-bottom: 20px;
+	float: right;
+}

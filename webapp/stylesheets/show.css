@@ -1,0 +1,86 @@
+div#wrap {
+	width: 800px;
+	overflow: auto;
+	border: 1px solid #BBBBBB;
+	-webkit-border-radius: 20px;	
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+div#contents {
+	font-family: Realeway, Helvetica Neue, Helvetica, Arial, sans-serif;
+	text-align: center;
+	width: 80%;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#contents h1 {
+	font-size: 2em;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+}
+
+#contents img {
+	margin: 30px 0px;
+}
+
+div#commentArea {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#commentArea textarea {
+	width: 400px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding: 5px;
+	resize: none;
+	float: left;
+	border: 1px solid #AAAAAA;
+	-webkit-border-radius: 5px;
+	font-size: 12px;
+}
+
+div#comment {
+	font-size: 12px;
+	text-align: left;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+#comment p {
+	border-top: 1px solid #AAAAAA;
+	padding: 5px;
+}
+
+#commentArea hr {
+	size: 1px;
+}
+
+#commentArea input[type=submit] {
+	margin-top: 20px;
+	padding: 5px;
+}
+
+#commentArea input[type=file] {
+	float: left;
+}
+
+.button {
+	display: block;
+	background-color: white;
+	color: #0066CC;
+	border: 1px solid #0066CC;
+	-webkit-border-radius: 5px;
+	padding: 5px;
+	margin-right: 5px;
+	margin-top: 1px;
+	margin-bottom: 20px;
+	float: right;
+}
