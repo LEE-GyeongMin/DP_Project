@@ -52,7 +52,8 @@
 				</form>
 			</div>
 			
-			<%-- <a class="button" href="/board">목록</a> <a class="button" href="/board/${board.id}/delete">삭제</a> --%>
+			<!-- <a class="button" href="/board">목록</a> -->
+			<!-- <a class="button" href="/board/${board.id}/delete">삭제</a> -->
 		</div>
 	</div>
 </c:forEach>

@@ -18,7 +18,7 @@ public class BoardController {
 	@Autowired
 	private BoardRepository boardRepository;
 	
-	@RequestMapping(value={"/", "/board"})
+	@RequestMapping(value="/board")
 	public String list(Model model) {
 		List<Board> savedBoard = (List<Board>) boardRepository.findAll();
 		Collections.reverse(savedBoard);
@@ -27,7 +27,7 @@ public class BoardController {
 		return "list";
 	}
 	
-	@RequestMapping(value="/board", method=RequestMethod.POST)
+	@RequestMapping(value={"/", "/board"}, method=RequestMethod.POST)
 	public String create(Board board, MultipartFile file) {
 		String fileName = FileUploader.upload(file);
 		board.setFileName(fileName);

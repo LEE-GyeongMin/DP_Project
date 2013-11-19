@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 
 @Entity
 public class Board {
@@ -28,7 +29,7 @@ public class Board {
 	
 	@OneToMany(mappedBy="board", fetch=FetchType.EAGER)
 	private List<Comment> comments;
-
+	
 	public Long getId() {
 		return id;
 	}
